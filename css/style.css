@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    width: 40%;
+    margin: 0 auto;
+    background: #f2f3fe;
+    box-shadow: 1px 2px 7px 0 #161616;
+    text-align: center;
+    padding: 10px;
+}
+h1{
+    color: #bebe0c;
+}
+p{
+    color: #028f8f;
+    text-transform: capitalize;
+}
