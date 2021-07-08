@@ -4,18 +4,37 @@
     box-sizing: border-box;
 }
 
-div{
-    width: 40%;
-    margin: 0 auto;
-    background: #f2f3fe;
-    box-shadow: 1px 2px 7px 0 #161616;
+.header{
+    height: 45px;
+    background: rgb(7, 144, 179);
+}
+
+#navbar{}
+#navbar ul{
     text-align: center;
-    padding: 10px;
 }
-h1{
-    color: #bebe0c;
+#navbar ul li{
+    display: inline-block;
 }
-p{
-    color: #028f8f;
+#navbar ul li a{
     text-transform: capitalize;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 35px 20px;
+    display: inline-block;
+    margin-left: -4px;
+    color:black;
+}
+
+#navbar ul li a:hover{
+    background: rgb(214, 248, 248);
+}
+
+table{
+    margin: 200px auto;
+}
+table, td, th{
+    border: 1px solid rgb(187, 186, 186);
+    border-collapse: collapse;
+    padding: 10px;
 }
